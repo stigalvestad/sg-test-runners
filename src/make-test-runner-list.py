@@ -135,11 +135,11 @@ with open("input.csv", "r", encoding="utf8") as test_runners_file:
                                       sorting=sorting,
                                       day=SUNDAY))
 
-    #print_test_runners(THURSDAY, runners)
-    #print("")
-    #print_test_runners(FRIDAY, runners)
-    # print("")
-    # print_test_runners(SATURDAY, runners)
+    print_test_runners(THURSDAY, runners)
+    print("")
+    print_test_runners(FRIDAY, runners)
+    print("")
+    print_test_runners(SATURDAY, runners)
     print("")
     print_test_runners(SUNDAY, runners)
 
